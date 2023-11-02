@@ -1,0 +1,58 @@
+body{
+   background-color: white;
+}
+.container{
+   background-color:white;
+   display: flex;
+   align-items: center;
+   height: 100vh;
+   border: 10px solid;
+   justify-content: center;
+}
+.box{
+   height: 50vh;
+   width: 50vb;
+   border-radius: 15%;
+   background-color:white;
+   box-shadow:40px 20px 60px black
+   
+}
+.circle{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   
+}
+.circle img{
+   border: 10px solid white;
+   height: 20vh;
+   width: 20vb;
+   border-radius: 50%;
+   margin-bottom: 10px;
+}
+.name p{
+   font-family: cursive;
+   font-size: 100px;
+   text-align: center;
+}
+.icons{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+#insta img{
+   height: 200px;
+   background-color: rgb(150, 106, 190);
+   border-radius: 50px;
+}
+#linkdin img{
+   height:200px;
+   background-color: rgb(99, 149, 180);
+   border-radius:20px;
+}
+#github img{
+   height:200px;
+   background-color:rgba(79, 79, 187, 0.724);
+   border-radius:20px;
+}
