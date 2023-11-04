@@ -13,9 +13,9 @@ body {
 }
 .box{
    
-   height: 1500px;
-   width: 1200px;
-   border-radius: 15%;
+   height: 500px;
+   width: 350px;
+   border-radius: 30px;
    background-color:white;
    box-shadow:40px 20px 60px black
    
@@ -23,22 +23,24 @@ body {
 .circle{
    display: flex;
    justify-content: center;
-   margin-top: 50px;
-   
-
-   
+   border-top-right-radius:30px;
+   border-top-left-radius:30px;
+   background: linear-gradient(to bottom, #4070f4 75%, white 25%);
 }
+
+
 .circle img{
+   margin-top: 10px;
    border: 10px solid white;
-   height: 400px;
-   width: 400px;
+   height: 150px;
+   width: 150px;
    border-radius: 50%;
    margin-bottom: 10px;
-   border: 10px #4070f4;
+   border: 5px solid white;
 }
 .name p{
    font-family: cursive;
-   font-size: 100px;
+   font-size: 30px;
    text-align: center;
 }
 .icons{
@@ -48,17 +50,17 @@ body {
    justify-content: space-evenly;
 }
 #insta img{
-   height: 200px;
+   height: 75px;
    background-color: rgb(150, 106, 190);
-   border-radius: 50px;
+   border-radius: 4px;
 }
 #linkdin img{
-   height:200px;
+   height:75px;
    background-color: rgb(99, 149, 180);
-   border-radius:20px;
+   border-radius:4px;
 }
 #github img{
-   height:200px;
+   height:75px;
    background-color:rgba(79, 79, 187, 0.724);
-   border-radius:20px;
+   border-radius:4px;
 }
