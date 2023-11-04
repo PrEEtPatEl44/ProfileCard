@@ -1,17 +1,20 @@
-body{
+body {
+   display: flex;
    background-color: white;
-}
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+ }
 .container{
    background-color:white;
    display: flex;
-   align-items: center;
-   height: 100vh;
-   border: 10px solid;
-   justify-content: center;
+   
 }
 .box{
-   height: 50vh;
-   width: 50vb;
+   
+   height: 1500px;
+   width: 1200px;
    border-radius: 15%;
    background-color:white;
    box-shadow:40px 20px 60px black
@@ -22,13 +25,16 @@ body{
    justify-content: center;
    margin-top: 50px;
    
+
+   
 }
 .circle img{
    border: 10px solid white;
-   height: 20vh;
-   width: 20vb;
+   height: 400px;
+   width: 400px;
    border-radius: 50%;
    margin-bottom: 10px;
+   border: 10px #4070f4;
 }
 .name p{
    font-family: cursive;
